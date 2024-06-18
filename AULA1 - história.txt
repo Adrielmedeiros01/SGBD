@@ -1,0 +1,45 @@
+BANCO DE DADOS mySQL
+
+
+# 1945 - Desenvolvimento de tecnologiasComputadores devido as guerras; 
+# Antes disso poderíamos dizer que tinha nas pedras, ábaco;
+# Década de 50 - Armazenamento em papel (ficha);
+# Ficha(Registros) - --Pasta(Tabelas) - --Estantes(Arquivos);
+# O desafio da década 50 p60 {
+ - Acumulo de papel;
+- Computação avança nas empresas;
+- Necessidade de guardar os dados de forma digital;
+- Começam a digitalizar;
+} 
+# Armazenamentos digitais {
+- Fitas - Arquivos sequenciais; 
+- Discos(hds);
+}
+# Primeira evolução {
+- Arquivos sequenciais  ( Várias fichas uma após a outra ); 
+}
+# Segunda evolução {
+- Discos(hds) - Arquivo de acesso direto; 
+- Permitia estabelecer um índice para cada registro,  dentro de uma tabela; 
+}
+# Década de 60 {
+Codazyl(Evento americano) - CoBOL (Primeira linguagem de SGBD que se preocupava com a lógica de programação;)
+} 
+# Composição do SGBD {
+- Base de dados;
+- Sistema gerenciador;
+- Linguagem de exploração;
+- Programas adicionais;
+}
+# IBM  {
+- Modelo hierárquico ( Dados interligados de maneira hierárquica);
+- Modelo em Rede (Rede inteligente,  sem relacionamento, os dados não se comunicavam);
+- Anos 70 -- Modelo Relacional (Dados que pqermitem uma relação entre eles); Relação de conjunto de registros dentro de outra tabela com outros registros; 
+
+}
+
+SQL {
+- Linguagem de consulta;
+- Oracle, IBM, sqlserver, MySQL, MariaDB, Firebird 
+
+}

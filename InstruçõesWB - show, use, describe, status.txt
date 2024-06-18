@@ -1,0 +1,29 @@
+criando um banco de dados no workbench:
+
+
+Para criar o BD, Digite: {
+create database nomedoBD;
+}
+
+Para criar uma tabela, Digite: {
+
+use nomedoBD;
+create table nomedatabela (
+ex: nome tipoprimitivo,
+ex: idade tipoprimitivo,
+ex: etc.. tipoprimitivo,
+
+); 
+
+}
+
+No terminal você pode digitar: {
+
+show databases; --> Para mostrar BD criados;
+show tables; --> Mostra as tabelas existentes;
+describe nomedatabela; --> Mostra a tabela;
+use nomedoBD; --> abre o BD;
+status; --> verifica qual BD está aberto;
+
+}
+

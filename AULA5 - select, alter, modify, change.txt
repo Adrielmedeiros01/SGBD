@@ -1,0 +1,75 @@
+
+DDL =  comandos de definição {
+
+alter table
+drop table
+}
+
+
+
+*Para adicionar colunas na tabela {
+
+alter table nometabela
+add column nomecoluna varchar(10);
+
+#Dessa forma a coluna sempre será adicionada ao fim 
+#da tabela;
+
+}
+
+*Para remover colunas {
+
+alter table nometable
+drop column nomecoluna;
+
+}
+
+*Adicionando em outra posição {
+
+alter table nometable
+add column nomecoluna varchar(10) after nomecoluna
+
+}
+
+*Para adicionar a coluna como primeiro campo da tabela {
+
+alter table nometable
+add column nomecolum int first;
+
+}
+
+*Para alterar a estrutura da definição {
+
+alter table nometable
+modify column profissão varchar(EX:20);
+
+
+Você consegue alterar o tipo primitivo e constrencts;
+
+}
+
+*Para modificar um nome de uma coluna {
+
+alter table nometabela
+change column profissao EX: prof varchar(20)
+
+
+}
+
+*Para renomear a tabela {
+
+alter table pessoas
+rename to garfanhotos;
+
+
+}
+
+
+Para apagar a tabela {
+
+drop table nometabela;
+drop id exists nometabela;
+
+
+
+}

@@ -1,0 +1,40 @@
+# Wampserver ->  pilha de soluções: conjunto de subsistemas ou componentes de software necessários para criar uma plataforma completa;
+- EX: Linguagem de programação, MySQL, PHP;
+# Workbench -> Ferramenta de design de banco de dados visual;
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+- Para apagar um BD, digite: {
+
+drop database nomedoBD;
+
+}
+
+- Para parâmetros de caracteres padrão {
+
+default character set utf8
+default collate utf8_general_ci
+#Lembrando que esses parâmetros deverão ser definidos dentro do escopo do create database;
+
+}
+
+- Constrencs -> Regras de definição para criação de coisas {
+
+# nome varchar not null -> o "not null" Campo obrigatório a ser preenchido; 
+
+}
+
+- ID/chave primaria {
+
+create table pessoas (
+# id int not null auto_increment,                          <----!!!!!!
+nome varchar(30) not null,
+nascimento date,
+sexo enum('M', 'F'),
+peso decimal(5,2),
+altura decimal(3, 2),
+nacionalidade varchar(20) default 'Brasil',
+# primary key (id)                                         <----!!!!!!
+)default charset = utf8;
+
+}
+--------------------------------------------------------------------------------------------------------------------------------------

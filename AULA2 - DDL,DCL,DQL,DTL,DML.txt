@@ -1,0 +1,27 @@
+
+*Iniciando o mundo - mysql - {
+-simples, 
+-grátis, 
+-livre(GPL), 
+-relacional, 
+-SQL;
+}
+
+# MariaDB é uma versão do mysql;
+
+Utilizam MySQL {
+- NASA,
+- Google,
+- wikipidia,
+- Bradesco,
+- Forças Armadas;
+}
+
+Instruções em linguagens {
+DDL -> Definição: criar, alterar, criar tabela, etc.(Define a estrutura)
+DML -> Manipulação: Excluir, alterar compu, incluir dados, etc(Manioula os dados)
+DQL -> Solicitações: Select,
+DCL -> Controle: Que usuario pode acessar, que tipo de acesso,qual comando executar, etc.
+DTL -> Transações: Durabillidade - Isolamneto - Consistência -  Atômicidade; (Solidez);
+}
+ 
