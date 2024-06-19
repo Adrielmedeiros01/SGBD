@@ -12,12 +12,12 @@ default collate utf8_general_ci;
 
 create table minhatab(
 
-item1,
-item2,
-item3,
-item4,
+item1 int not null auto_incremente,
+item2 varchar(20),
+item3 int,
+item4 ,
 item5
-primary Key()
+primary Key(item1)
 
 )default charset=utf8;
 
