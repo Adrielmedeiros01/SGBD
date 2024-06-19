@@ -13,9 +13,9 @@ default collate utf8_general_ci;
 create table minhatab(
 
 item1 int not null auto_incremente,
-item2 varchar(20),
-item3 int,
-item4 ,
+item2 varchar(20) not null,
+item3 enum('M', 'F'),
+item4 date,
 item5
 primary Key(item1)
 
