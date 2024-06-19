@@ -3,7 +3,7 @@
 ##
 - 🧑‍💻 Curso em Vídeo:
 
-https://youtu.be/wXViczeTr6Q?si=UvH77gNxTWNlgc6G
+https://youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r&si=Wa7SQf_OanD8ioRL
 
 ##
 
