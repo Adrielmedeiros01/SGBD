@@ -71,11 +71,86 @@ values
 ('value1','value2', 'value3', 'value4', 'value5','value6'),
 
 ('value1','value2', 'value3', 'value4', 'value5','value6'); 
- 
- 
 
+##
+
+# ADICIONAR COLUNAA: 
+
+##
+
+alter table minhatab 
+add column nomecoluna tipoprimitivo; 
+
+- Dessa forma a coluna sempre será adicionada ao fim da tabela; 
+
+
+## 
+
+##
+
+# REMOVER COLUNAS: 
+
+##
+
+alter table minhatab
+
+drop column nomecoluna; 
 
 
 ##
+
+# POSIÇÃO ESPECÍFICA:
+
+##
+
+alter table minhatab 
+
+add column nomecoluna tipoprimitivo after nomecoluna;
+
+##
+
+# PRIMEIRA COLUNA: 
+
+alter table minhatab 
+
+add column nomecolum tipoprimitivo first; 
+
+##
+
+*Para alterar a estrutura da definição { 
+
+alter table nometable 
+modify column profissão varchar(EX:20); 
+
+
+Você consegue alterar o tipo primitivo e constrencts; 
+
+} 
+
+*Para modificar um nome de uma coluna { 
+
+alter table nometabela 
+change column profissao EX: prof varchar(20) 
+
+
+} 
+
+*Para renomear a tabela { 
+
+alter table pessoas 
+rename to garfanhotos; 
+
+
+} 
+
+
+Para apagar a tabela { 
+
+drop table nometabela; 
+drop id exists nometabela; 
+
+
+
+} 
 
 
