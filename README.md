@@ -5,14 +5,18 @@ https://youtu.be/wXViczeTr6Q?si=UvH77gNxTWNlgc6G
 # CRIANDO O BD:
 
 create database meuBD
+
 default character set utf8 
+
 default collate utf8_general_ci;
+
+##
 
 # CRIANDO UMA TABELA:
 
 create table minhatab(
 
-item1 int not null auto_incremente,
+item1 int not null auto_increment,
 
 item2 varchar(20) not null,
 
@@ -27,5 +31,7 @@ item6 varchar(20) default 'Brasil',
 primary Key(item1)
 
 )default charset=utf8;
+
+##
 
 
