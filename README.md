@@ -46,7 +46,7 @@ primary key(item1)
 
 ##
 
-insert into nomedatabela  
+insert into minhatab  
 
 (item1, item2, item3, item4, item5, item6) 
 
@@ -59,6 +59,8 @@ values
 - Inserindo vários dados:
 
 ##
+
+insert into minhatab
 
 (item1, item2, item3, item4, item5, item6) 
 
