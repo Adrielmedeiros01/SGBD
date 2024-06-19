@@ -1,5 +1,5 @@
 # SGBD
-<img  src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5zBqe7l-IBreSKyAxK2F5a3vh3fNcn8AbJA&usqp=CAU "/>
+<img  src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5zBqe7l-IBreSKyAxK2F5a3vh3fNcn8AbJA&usqp=CAU"/>
 ##
 - Curso em Vídeo:
 
