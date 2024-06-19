@@ -9,6 +9,9 @@ https://youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r&si=Wa7SQf_O
 
 ##
 
+
+<img height="180em" src=" https://github-readme-stats.vercel.app/api?username=Athelstan0420&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+
 # 📌 CRIANDO O BD:
 
 ##
