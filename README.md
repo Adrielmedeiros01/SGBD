@@ -162,12 +162,16 @@ drop id exists nometabela;
 ##
 
 - show databases; --> Para mostrar BD criados;
+
+- use nomedoBD; --> abre o BD; 
  
 - show tables; --> Mostra as tabelas existentes; 
 
 - describe nomedatabela; --> Mostra a tabela; 
 
-- use nomedoBD; --> abre o BD; 
+- select * from nometabela; --> Mostra todos os dados da tabela;
 
 - status; --> verifica qual BD está aberto; 
+
+
 
