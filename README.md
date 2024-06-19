@@ -1,8 +1,14 @@
 # SGBD
 
+##
+
 https://youtu.be/wXViczeTr6Q?si=UvH77gNxTWNlgc6G
 
+##
+
 # CRIANDO O BD:
+
+##
 
 create database meuBD
 
@@ -13,6 +19,8 @@ default collate utf8_general_ci;
 ##
 
 # CRIANDO UMA TABELA:
+
+##
 
 create table minhatab(
 
@@ -36,30 +44,34 @@ primary key(item1)
 
 # INSERINDO DADOS:
 
-
-
+##
 
 insert into nomedatabela  
 
-(id, nome, nascimento, sexo, peso, altura, nacionalidade) 
+(item1, item2, item3, item4, item5, item6) 
 
 values 
 
-('0','Adriel', '2002-03-15', 'M', '59.0','1.65', 'brasileiro'); 
+('value1','value2', 'value3', 'value4', 'value5','value6'); 
  
+##
+
 - Inserindo vários dados:
 
-insert into pessoas 
+##
 
-(nome, nascimento, sexo, peso, altura, nacionalidade) 
+(item1, item2, item3, item4, item5, item6) 
 
 values 
 
-('Alice', '2019-01-25', 'F', '30.0','1.00', 'Brasil'), 
+('value1','value2', 'value3', 'value4', 'value5','value6'),
 
-('Alice', '2019-01-25', 'F', '30.0','1.00', 'Brasil'), 
+('value1','value2', 'value3', 'value4', 'value5','value6'),
 
-('Alice', '2019-01-25', 'F', '30.0','1.00', 'Brasil'); 
+('value1','value2', 'value3', 'value4', 'value5','value6'); 
+ 
+ 
+
 
 
 ##
