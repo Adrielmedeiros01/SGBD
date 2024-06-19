@@ -13,10 +13,17 @@ default collate utf8_general_ci;
 create table minhatab(
 
 item1 int not null auto_incremente,
+
 item2 varchar(20) not null,
+
 item3 enum('M', 'F'),
+
 item4 date,
-item5
+
+item5 decimal(3,2),
+
+item6 varchar(20) default 'Brasil',
+
 primary Key(item1)
 
 )default charset=utf8;
