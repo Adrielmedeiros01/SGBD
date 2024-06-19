@@ -1,6 +1,7 @@
 # SGBD
 
 ##
+- Curso em Vídeo:
 
 https://youtu.be/wXViczeTr6Q?si=UvH77gNxTWNlgc6G
 
@@ -74,7 +75,7 @@ values
 
 ##
 
-# ADICIONAR COLUNAA: 
+# ADICIONAR COLUNAS: 
 
 ##
 
@@ -117,31 +118,34 @@ add column nomecolum tipoprimitivo first;
 
 ##
 
-*Para alterar a estrutura da definição { 
+# ALTERAR ESTRUTURA E DEFINIÇÃO { 
 
-alter table nometable 
-modify column profissão varchar(EX:20); 
+alter table minhatab 
 
+modify column nomecoluna varchar(EX:20); 
 
-Você consegue alterar o tipo primitivo e constrencts; 
+- Você consegue alterar o tipo primitivo e constrencts; 
 
-} 
+##
 
-*Para modificar um nome de uma coluna { 
+# MODIFICAR NOME DA COLUNA:
 
-alter table nometabela 
-change column profissao EX: prof varchar(20) 
+## 
 
+alter table minhatab 
 
-} 
+change column nomecoluna EX: newcoluna varchar(20);
 
-*Para renomear a tabela { 
+##
 
-alter table pessoas 
+# RENOMEAR TABELA:
+
+##
+
+alter table minhatab 
 rename to garfanhotos; 
 
-
-} 
+##
 
 
 Para apagar a tabela { 
