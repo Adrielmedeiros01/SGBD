@@ -39,7 +39,27 @@ primary key(item1)
 
 
 
+insert into nomedatabela  
 
+(id, nome, nascimento, sexo, peso, altura, nacionalidade) 
+
+values 
+
+('0','Adriel', '2002-03-15', 'M', '59.0','1.65', 'brasileiro'); 
+ 
+- Inserindo vários dados:
+
+insert into pessoas 
+
+(nome, nascimento, sexo, peso, altura, nacionalidade) 
+
+values 
+
+('Alice', '2019-01-25', 'F', '30.0','1.00', 'Brasil'), 
+
+('Alice', '2019-01-25', 'F', '30.0','1.00', 'Brasil'), 
+
+('Alice', '2019-01-25', 'F', '30.0','1.00', 'Brasil'); 
 
 
 ##
