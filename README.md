@@ -1,4 +1,4 @@
-# SGBD:
+# SGBD: 💾💿🖥️🗂️🗃️🗄️
 
 ##
 - Curso em Vídeo:
@@ -7,7 +7,7 @@ https://youtu.be/wXViczeTr6Q?si=UvH77gNxTWNlgc6G
 
 ##
 
-# CRIANDO O BD:
+# 📌 CRIANDO O BD:
 
 ##
 
@@ -19,7 +19,7 @@ default collate utf8_general_ci;
 
 ##
 
-# CRIANDO UMA TABELA:
+# 📌 CRIANDO UMA TABELA:
 
 ##
 
@@ -43,7 +43,7 @@ primary key(item1)
 
 ##
 
-# INSERINDO DADOS:
+# 📌 INSERINDO DADOS:
 
 ##
 
@@ -57,7 +57,7 @@ values
  
 ##
 
-- Inserindo vários dados:
+# 📌 INSERINDO VÁRIOS DADOS:
 
 ##
 
@@ -75,7 +75,7 @@ values
 
 ##
 
-# ADICIONAR COLUNAS: 
+# 📌 ADICIONAR COLUNAS: 
 
 ##
 
@@ -89,7 +89,7 @@ add column nomecoluna tipoprimitivo;
 
 ##
 
-# REMOVER COLUNAS: 
+# 📌 REMOVER COLUNAS: 
 
 ##
 
@@ -100,7 +100,7 @@ drop column nomecoluna;
 
 ##
 
-# POSIÇÃO ESPECÍFICA:
+# 📌 POSIÇÃO ESPECÍFICA:
 
 ##
 
@@ -110,7 +110,7 @@ add column nomecoluna tipoprimitivo after nomecoluna;
 
 ##
 
-# PRIMEIRA COLUNA: 
+# 📌 PRIMEIRA COLUNA: 
 
 alter table minhatab 
 
@@ -118,7 +118,7 @@ add column nomecolum tipoprimitivo first;
 
 ##
 
-# ALTERAR ESTRUTURA E DEFINIÇÃO:
+# 📌 ALTERAR ESTRUTURA E DEFINIÇÃO:
 
 alter table minhatab 
 
@@ -128,7 +128,7 @@ modify column nomecoluna varchar(EX:20);
 
 ##
 
-# MODIFICAR NOME DA COLUNA:
+# 📌 MODIFICAR NOME DA COLUNA:
 
 ## 
 
@@ -138,7 +138,7 @@ change column nomecoluna EX: newcoluna varchar(20);
 
 ##
 
-# RENOMEAR TABELA:
+# 📌 RENOMEAR TABELA:
 
 ##
 
@@ -149,7 +149,7 @@ rename to garfanhotos;
 ##
 
 
-# APAGAR TABELA:  
+# 📌 APAGAR TABELA:  
 
 drop table nometabela; 
 
