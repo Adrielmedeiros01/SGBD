@@ -28,9 +28,19 @@ item5 decimal(3,2),
 
 item6 varchar(20) default 'Brasil',
 
-primary Key(item1)
+primary key(item1)
 
-)default charset=utf8;
+) default charset=utf8;
+
+##
+
+# INSERINDO DADOS:
+
+
+
+
+
+
 
 ##
 
