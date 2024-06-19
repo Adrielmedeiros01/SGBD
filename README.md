@@ -175,5 +175,7 @@ drop id exists nometabela;
 
 - status; --> verifica qual BD está aberto; 
 
+##
+
 
 
