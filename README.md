@@ -9,8 +9,11 @@ https://youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r&si=Wa7SQf_O
 
 ##
 
+# 📌 TIPOS PRIMITIVOS:
 
 <img height="180em" src="TiposPrimitivos.jpg"/>
+
+##
 
 # 📌 CRIANDO O BD:
 
