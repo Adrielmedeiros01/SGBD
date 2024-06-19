@@ -118,7 +118,7 @@ add column nomecolum tipoprimitivo first;
 
 ##
 
-# ALTERAR ESTRUTURA E DEFINIÇÃO { 
+# ALTERAR ESTRUTURA E DEFINIÇÃO:
 
 alter table minhatab 
 
@@ -143,18 +143,17 @@ change column nomecoluna EX: newcoluna varchar(20);
 ##
 
 alter table minhatab 
+
 rename to garfanhotos; 
 
 ##
 
 
-Para apagar a tabela { 
+# APAGAR TABELA:  
 
 drop table nometabela; 
+
 drop id exists nometabela; 
 
-
-
-} 
-
+##
 
