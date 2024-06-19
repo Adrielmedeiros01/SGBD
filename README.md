@@ -157,3 +157,17 @@ drop id exists nometabela;
 
 ##
 
+# 📌 MOSTRAR: 
+
+##
+
+- show databases; --> Para mostrar BD criados;
+ 
+- show tables; --> Mostra as tabelas existentes; 
+
+- describe nomedatabela; --> Mostra a tabela; 
+
+- use nomedoBD; --> abre o BD; 
+
+- status; --> verifica qual BD está aberto; 
+
