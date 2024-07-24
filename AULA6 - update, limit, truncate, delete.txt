@@ -1,0 +1,54 @@
+# Manipulando linhas:
+----------------------------
+- Utilize o: 'update';
+---------------------------------------------------------------------
+
+*Comando p manipular uma linha {
+
+|update nometabela          |--> Modifique a tabela
+|set nomecoluna = "texto"   |--> configurando a coluna x para y 
+|where id = '1';            |--> onde o id seja = ''
+
+}
+--------------------------------------------------------------------------------------------------
+*Para manipular várias linhas {
+
+|update nometabela                                      |--> Modifique a tabela
+|set nomecoluna = "texto", nome = 'jose', idade = 'x'   |--> configurando a coluna x para y 
+|where id = '1', ;                                      |--> onde o id/nome/ ou qqr nome seja = ''
+
+
+}
+-----------------------------------------------------------------------------------------------------
+*Utilize o 'LIMIT 1 ' Para limitar o comando há apenas uma linha; {
+
+|update nometabela                                      |--> Modifique a tabela
+|set nomecoluna = "texto", nome = 'jose', idade = 'x'   |--> configurando a coluna x para y 
+|where id = '1'                                         |--> onde o id/nome/ ou qqr nome seja = ''
+|limite 1;                                              |
+
+}
+------------------------------------------------------------------------------------------------------
+* Como apagar linhas -  comando {
+
+| delete from cursos |
+| where id = 'x';    |
+
+/* Você tbm pode utilizar o 'limit'*/
+
+
+}
+-------------------------------------------------
+
+* Como apagar todos os registros - comando {
+
+| truncate nometabela; |
+
+}
+
+-------------------------------------------------
+
+DML --> insert into, update, limit, truncate
+
+--------------------------------------------------
+
