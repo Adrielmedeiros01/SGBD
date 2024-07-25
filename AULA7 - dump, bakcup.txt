@@ -1,0 +1,29 @@
+---------------------------------------------------------
+
+* NO WORKBENCH - FERRAMENTA - PARA EXPORTAR {
+
+SERVER -> DATA EXPORT 
+
+TABLES TO EXPORT -> SCHEMA OBJECTS
+
+DUMP 1, 2, 3;
+
+INCLUDE CREATE SCEHMA
+
+START EXPORT
+
+)
+
+------------------------------------------------------
+
+PARA IMPORTAR (
+
+SERVER -> DATA IMPORT 
+
+IMPORT DUMP DA SEGUINTEE PASTA
+
+START IMPORT
+
+
+
+)
