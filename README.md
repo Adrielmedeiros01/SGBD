@@ -193,6 +193,7 @@ drop id exists nometabela;
 
 update nome tabela        
 set nomeecoluna = "texto"
+
 where id = "x";            
 
 
