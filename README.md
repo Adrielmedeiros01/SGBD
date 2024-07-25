@@ -186,6 +186,8 @@ drop id exists nometabela;
 # 📌 MANIPULAR LINHAS:
 
 ##
+
+
               ->  Apenas uma  <-
 
         |  update nome tabela.        |
@@ -194,6 +196,7 @@ drop id exists nometabela;
 
 
                  -> Várias <-
+
 
 |  update nome tabela.                        |
 |  set nomeecoluna = "texto", nome = "texto"  |
