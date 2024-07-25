@@ -223,6 +223,13 @@ truncate nometabela;
 ## 
 
 
+# MODELO RELACIONAL:
+
+##
+
+img height="180em" src=""/>
+
+
 
      
 
