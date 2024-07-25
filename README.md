@@ -190,6 +190,7 @@ drop id exists nometabela;
               ->  Apenas uma  <-
 
 update nome tabela        
+
 set nomeecoluna = "texto"
 
 where id = "x";            
@@ -197,8 +198,10 @@ where id = "x";
 
                 -> Várias <-
 
-update nome tabela                     
+update nome tabela                   
+  
 set nomecoluna = "texto", nome = "texto"  
+
 where id = "x";             
 
 ## 
@@ -206,9 +209,18 @@ where id = "x";
 # 📌 DELETAR LINHAS:
 
 delete from nometabela
+
 where id = 'x'          
 
 ##
+
+# 📌 APAGAR TODOS OS REGISTROS:
+
+##
+
+truncate nometabela;
+
+## 
 
 
 
