@@ -190,12 +190,12 @@ drop id exists nometabela;
 
               ->  Apenas uma  <-
 
-           update nome tabela.        |
-           set nomeecoluna = "texto". |
-           where id = "x";            |
+           update nome tabela.        
+           set nomeecoluna = "texto". 
+           where id = "x";            
 
 
-                 -> Várias <-
+                -> Várias <-
 
 
   update nome tabela.                        
