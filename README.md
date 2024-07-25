@@ -223,7 +223,7 @@ truncate nometabela;
 ## 
 
 
-# MODELO RELACIONAL:
+# 📌 MODELO RELACIONAL:
 
 ##
 
