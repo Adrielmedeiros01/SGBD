@@ -198,11 +198,11 @@ where id = "x";
 
                 -> Várias <-
 
-update nome tabela                   
+update nome tabela     --> Modifique a tabela              
   
-set nomecoluna = "texto", nome = "texto"  
+set nomecoluna = "texto", nome = "texto"   --> configurando a coluna x para y
 
-where id = "x";             
+where id = "x";    --> onde o id/nome/ ou qqr nome seja = ''          
 
 ## 
 
