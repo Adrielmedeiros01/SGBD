@@ -191,15 +191,15 @@ drop id exists nometabela;
 
               ->  Apenas uma  <-
 
-update nome tabela.        
-set nomeecoluna = "texto". 
+update nome tabela        
+set nomeecoluna = "texto"
 where id = "x";            
 
 
                 -> Várias <-
 
-update nome tabela.                        
-set nomeecoluna = "texto", nome = "texto"  
+update nome tabela                     
+set nomecoluna = "texto", nome = "texto"  
 where id = "x";                            
 
 
