@@ -227,7 +227,7 @@ truncate nometabela;
 
 ##
 
-img height="180em" src="img1.jpg"/>
+<img height="180em" src="img1.jpg"/>
 
 ##
 
