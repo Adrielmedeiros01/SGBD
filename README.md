@@ -227,7 +227,7 @@ truncate nometabela;
 
 ##
 
-<img height="180" src="img1.jpg"/>
+<img height="180" src="Armazenamento interno/DCIM/Screenshots/img1.jpg"/>
 
 ##
 
