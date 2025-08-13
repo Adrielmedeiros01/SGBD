@@ -1,8 +1,11 @@
 # Revisão Modelagem:
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 	- Banco de Dados: Conjunto de dados com algum significado e relacionados; 
 
 	- Abstração: Entendimento das regras, tipos de dados e como se relacionam;
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 	- Modelo: Representação de algum objeto do mundo real:
 
@@ -13,20 +16,21 @@
 				- Entidade associativa; 
 
 			-> Relacionamento {Verbo, Associação entre entidades;(binário, autorelacionamento, Ternário)},
-
+				- Se o relcionamento tiver atributo, ele vira uma tabela;
 			-> Atributos: Características das entidades (Monovalorado, Multivalorado, Composto,
 				- {Determinante = CHAVE {simples e composta} - (primária)})
 				- Também pode ocorrer atributos em um relacionamento; 
 				- Generalização/Especialização;
 
-			-> Cardinalidade: (Min&Máx), (1:1), (1:N), (N:N {Cria uma nova tabela no modelo coneitual});
+			-> Cardinalidade: (Min&Máx), (1:1 {Une as duas tabelas}), (1:N) {O lado N recebe a FK}, (N:N {Cria uma nova tabela no modelo conceitual});
 
 		- 3- Lógico/ Relacional = Conjunto de relações entre as tabelas;
 			
 			-> Chave candidata = Chave candidata a ser chave primária;
 			-> Chave alternativa = Chaves que sobraram das chaves candidata;
-			-> Chave primária = Identificador principal;
-			-> Chave estrangeira = Chave primária de uma tabela importada para outra tabela para realizar o relacionamento;
+			-> Chave primária(PK) = Identificador principal;
+			-> Chave estrangeira(FK) = Chave primária de uma tabela importada para outra tabela para realizar o relacionamento;
+				- (sempre vai ficar do lado (:N do relacionameto);
 			-> Restrições de integridade = Chave, Domínio, vazio, Referencial;
 			-> Especificações = Notação textual, diagramática, Tipos de dados: {Interger, varchar, float, date, etc..}
 
@@ -35,9 +39,18 @@
 	- Entidade fraca: Só existe apenas quando se relaciona com outra entidade;
 
   
-
-
-	Relações = 
-	Coluna = ATRIBUTOS
-	Linhas = 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	Tabela = ENTIDADE;
+	Relações = CHAVES ESTRANGEIRAS (sempre vai ficar do lado (:N do relacionameto));
+	Coluna = ATRIBUTOS;
+	Linhas = REGISTROS;
 	Domínio = 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+	- Transformação de modelos:
+
+		-> Mapeamento MER - MR;
+		-> Mapemento de atributos multivalorados e (0:n) = Cria-se uma nova tabela;	
+		-> Mapeamento de atributos compostos = Não coloca o atributo principal, mas sim seus atributos que o compõe;
+	 
