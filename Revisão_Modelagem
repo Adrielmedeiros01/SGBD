@@ -1,0 +1,43 @@
+# Revisão Modelagem:
+
+	- Banco de Dados: Conjunto de dados com algum significado e relacionados; 
+
+	- Abstração: Entendimento das regras, tipos de dados e como se relacionam;
+
+	- Modelo: Representação de algum objeto do mundo real:
+
+		- 1- Minimundo(requisitos): Descrição do projeto(Visão do cliente.);
+
+		- 2- Conceitual(Abstrato e independente, E.R):
+			-> Entidade {objeto, função, departamento};
+				- Entidade associativa; 
+
+			-> Relacionamento {Verbo, Associação entre entidades;(binário, autorelacionamento, Ternário)},
+
+			-> Atributos: Características das entidades (Monovalorado, Multivalorado, Composto,
+				- {Determinante = CHAVE {simples e composta} - (primária)})
+				- Também pode ocorrer atributos em um relacionamento; 
+				- Generalização/Especialização;
+
+			-> Cardinalidade: (Min&Máx), (1:1), (1:N), (N:N {Cria uma nova tabela no modelo coneitual});
+
+		- 3- Lógico/ Relacional = Conjunto de relações entre as tabelas;
+			
+			-> Chave candidata = Chave candidata a ser chave primária;
+			-> Chave alternativa = Chaves que sobraram das chaves candidata;
+			-> Chave primária = Identificador principal;
+			-> Chave estrangeira = Chave primária de uma tabela importada para outra tabela para realizar o relacionamento;
+			-> Restrições de integridade = Chave, Domínio, vazio, Referencial;
+			-> Especificações = Notação textual, diagramática, Tipos de dados: {Interger, varchar, float, date, etc..}
+
+		- 4- Físico: script SQL;
+
+	- Entidade fraca: Só existe apenas quando se relaciona com outra entidade;
+
+  
+
+
+	Relações = 
+	Coluna = ATRIBUTOS
+	Linhas = 
+	Domínio = 
