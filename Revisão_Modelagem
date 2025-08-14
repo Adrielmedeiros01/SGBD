@@ -70,3 +70,4 @@
 			- Comandos terminados em ponto e vírgula;
 			- Inserir, remover e atualizar;		
 			- DDL, DQL, DCL, DTL, 
+			- Comentários em SQL = -- e /**/
