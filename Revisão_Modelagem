@@ -53,4 +53,20 @@
 		-> Mapeamento MER - MR;
 		-> Mapemento de atributos multivalorados e (0:n) = Cria-se uma nova tabela;	
 		-> Mapeamento de atributos compostos = Não coloca o atributo principal, mas sim seus atributos que o compõe;
-	 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+	# SGBD = SISTEMA DE GERENCIAMENTO DE BANCO DE DADOS;
+
+		-> IMPORTANCIA: Redundância, Integridade, Segurança, Backup, Manipulação de grandes quantidades de dados, Acesso concorrente;
+		-> PROPRIEDADES:
+			- Atomicidade(Executa totalmente ou não será feita),
+			- Consistência(Estado válido de dados),
+			- Isolamento(Ações que não são interferidas por outras),
+			- Durabilidade(Disponibilidade de dados e não corrompidos);
+
+		-> DBA = Administra o BD estratégica e politicamente. Implanta regras e define os procedimentos;
+
+		-> SQL(Linguagem de consulta estruturada) = Linguagem de consulta e manipulação dos dados;
+			- Comandos terminados em ponto e vírgula;
+			- Inserir, remover e atualizar;		
+			- DDL, DQL, DCL, DTL, 
