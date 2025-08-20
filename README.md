@@ -33,7 +33,7 @@ default collate utf8_general_ci;
 
 create table minhatab(
 
-item1 int not null auto_increment,
+item1 int not null auto_increment unique,
 
 item2 varchar(20) not null,
 
