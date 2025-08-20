@@ -223,44 +223,6 @@ truncate nometabela;
 ## 
 
 
-# 📌 MODELO RELACIONAL:
-
-##
-
-<img height="180" src="Armazenamento interno/DCIM/Screenshots/img1.jpg"/>
-
-##
-
-img height="180em" src=""/>
-
-##
-
-img height="180em" src=""/>
-
-##
-
-img height="180em" src=""/>
-
-##
-
-img height="180em" src=""/>
-
-##
-
-img height="180em" src=""/>
-
-##
-
-img height="180em" src=""/>
-
-##
-
-img height="180em" src=""/>
-
-##
-
-     
-
 
 
 
