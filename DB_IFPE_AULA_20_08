@@ -1,0 +1,45 @@
+21:06:23	create table Produtos(  id int primary key auto_increment, nome varchar(100) not null, descricao varchar(1000) default "Sem descrição", preco float, check(preco > 0)  )	0 row(s) affected	0.031 sec
+
+20:47:40	create table Clientes(  id int primary key auto_increment, nome varchar(100) not null, cpf varchar(50) unique  )	0 row(s) affected	0.047 sec
+
+20:02:19	drop table Cargo	0 row(s) affected	0.016 sec
+
+]20:02:15	alter table Pessoa drop column tel	0 row(s) affected Records: 0  Duplicates: 0  Warnings: 0	0.062 sec
+
+20:02:01	alter table Pessoa add column email varchar(50)	0 row(s) affected Records: 0  Duplicates: 0  Warnings: 0	0.031 sec
+
+19:53:28	create table Cargo(  nome varchar(100), salario float  )	0 row(s) affected	0.047 sec
+
+19:52:22	create table Pessoa(  nome varchar(100), tel varchar(50), nascimento datetime  )	0 row(s) affected	0.015 sec
+
+19:51:30	drop table Pessoa	0 row(s) affected	0.032 sec
+
+19:49:47	create table Pessoa(  id int not null auto_increment, nome varchar(100), tel int, nascimento datetime, primary key (id)  )	0 row(s) affected	0.047 sec
+
+19:36:43	create database lojaifpe	1 row(s) affected	0.000 sec
+
+19:36:24	drop database myfirst_db	0 row(s) affected	0.016 sec
+
+19:29:58	create database myfirst_db	1 row(s) affected	0.016 sec
+
+19:29:58	use pratica_db	0 row(s) affected	0.000 sec
+
+19:29:14	drop database myfirst_db	0 row(s) affected	0.016 sec
+
+19:28:13	use pratica_db	0 row(s) affected	0.000 sec
+
+
+
+
+
+create table Produtos(
+
+id int primary key auto_increment,
+nome varchar(100) not null,
+descricao varchar(1000) default "Sem descrição",
+preco float,
+check(preco > 0)
+
+);
+
+
