@@ -45,7 +45,9 @@ item5 decimal(3,2),
 
 item6 varchar(20) default 'Brasil',
 
-primary key(item1)
+primary key(item1),
+
+check (item > 10)
 
 ) default charset=utf8;
 
