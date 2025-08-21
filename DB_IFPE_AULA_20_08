@@ -77,6 +77,17 @@ foreign key (id_Cliente) references Clientes(id)
 );
 
 
+create table Pedido_produto(
+
+id_pedido int,
+foreign key (id_pedido) references Pedido(id),
+id_Produto int,
+foreign key (id_Produto) references Produtos(id),
+quantidade int,
+primary key(id_Produto, id_Pedido)
+
+);
+
 
 
 
