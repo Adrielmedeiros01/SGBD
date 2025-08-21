@@ -33,6 +33,10 @@ default collate utf8_general_ci;
 
 create table minhatab(
 
+iditem0 int;
+
+foreign key (iditem0) references nome_tabela(primary key)
+
 item1 int not null auto_increment unique,
 
 item2 varchar(20) not null,
