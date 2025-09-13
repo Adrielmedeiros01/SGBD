@@ -48,14 +48,12 @@ insert into aluno(nome,matricula,dNasc,bolsista, cursoId, campusId) select "Rafa
 insert into aluno(nome,matricula,dNasc,bolsista, cursoId, campusId) select "João",9999,"1999-1-12",0,curso.idCurso, campus.idCampus from curso, campus where curso.idcurso = 2 and campus.idCampus = 1;
 insert into aluno(nome,matricula,dNasc,bolsista, cursoId, campusId) select "José",7777,"2000-01-01",1,curso.idCurso, campus.idCampus from curso, campus where curso.idcurso = 3 and campus.idCampus = 3;
 
-
 delete from aluno where aluno.cursoId = 1;
 update curso set nome = "Licenciatura em Computação" where idCurso = 1;
 update curso_campus set cHoraria = "4000" where cursoId = 1 and campusId = 4;
 alter table aluno add column bolsaValor double;
 update aluno set bolsaValor = 100 where aluno.bolsista = 1; 
-
-
+update aluno set bolsaValor = 100 + (100*20) / 100 where aluno.bolsaValor = 100;
 
 
 
