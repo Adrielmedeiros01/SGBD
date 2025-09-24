@@ -54,4 +54,26 @@ select * from filme where preco_da_locacao not between 0.99 and 2.00;
 select * from filme where duracao_do_filme between 60 and 80;
 select data_de_aluguel from aluguel  where data_de_aluguel between "2005-05-24" and "2005-06-24" limit 10;
 
+-- A ORDER BY palavra-chave classifica os registros em ordem 
+-- crescente por padrão. Para classificar os registros em ordem decrescente,
+-- use a DESC palavra-chave.
+
+use locadora;
+
+select * from cliente;
+select distinct primeiro_nome, ultimo_nome
+from cliente
+order by ultimo_nome;
+
+select * from endereco;
+select endereco, bairro, cep, telefone
+from endereco
+order by bairro, endereco;
+
+select * from filme;
+select titulo, descricao, duracao_do_filme, preco_da_locacao
+from filme
+where duracao_do_filme >= 100 and ano_de_lancamento = 2006
+order by preco_da_locacao desc
+limit 5;
 
