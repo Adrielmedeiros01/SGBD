@@ -11,7 +11,6 @@
 
 */
 
-
 -- Retorne a quantidade de clientes:
 select count(*) from cliente;
 
@@ -28,4 +27,6 @@ select count(*) from filme where duracao_do_filme >= 90;
 select avg(preco_da_locacao) from filme where ano_de_lancamento = 2006 and classificacao = 'R';
 
 -- Soma dos valores de uma coluna, colocando esse valor em uma coluna apelidada de x, seguindo a seguinte condições:
-select sum(valor) from pagamento as total_pagamentos where data_de_pagamento between "2005-03-10" and "2005-11-30";
+select sum(valor) as total_pagamentos from pagamento  where data_de_pagamento between "2005-03-10" and "2005-11-30";
+
+
