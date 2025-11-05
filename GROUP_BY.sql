@@ -21,3 +21,9 @@ select c.primeiro_nome, c.email, sum(p.valor) as compras_totais from pagamento p
 join cliente c on p.cliente_id = c.cliente_id
 group by p.cliente_id
 order by compras_totais desc;
+
+-- Quantidade existente para cada duração somente para os que possuem 90min minimos:
+select duracao_do_filme, count(*) as qtd_filmes from filme
+where duracao_do_filme >= 90
+group by duracao_do_filme
+order by duracao_do_filme;
