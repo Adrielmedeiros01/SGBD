@@ -41,3 +41,10 @@ select f.primeiro_nome, p.funcionario_id, sum(valor) as total_pagamentos from pa
 join funcionario f on p.funcionario_id = f.funcionario_id
 group by funcionario_id
 having total_pagamentos >= 30000;
+
+
+-- 
+select c.primeiro_nome, count(*) as qtd_alugueis from aluguel a 
+join cliente c on a.cliente_id = c.cliente_id
+group by c.cliente_id
+having qtd_alugueis >= 40;
