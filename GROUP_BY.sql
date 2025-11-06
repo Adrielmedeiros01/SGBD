@@ -35,3 +35,9 @@ where duracao_do_filme >= 90
 group by duracao_do_filme
 having qtd_filmes >= 2
 order by duracao_do_filme;
+
+-- Exibe total, com respectivo id, seguindo uma seguinte clausula HAVING, usando JOIN tbm:
+select f.primeiro_nome, p.funcionario_id, sum(valor) as total_pagamentos from pagamento p
+join funcionario f on p.funcionario_id = f.funcionario_id
+group by funcionario_id
+having total_pagamentos >= 30000;
