@@ -27,3 +27,11 @@ select duracao_do_filme, count(*) as qtd_filmes from filme
 where duracao_do_filme >= 90
 group by duracao_do_filme
 order by duracao_do_filme;
+
+-- Aplicando um filtro após o agrupamento com o HAVING (Exibindo apenas os que cumprem a clausula):
+-- É como se fosse um WHERE só que depois do GROUP BY:
+select duracao_do_filme, count(*) as qtd_filmes from filme
+where duracao_do_filme >= 90
+group by duracao_do_filme
+having qtd_filmes >= 2
+order by duracao_do_filme;
