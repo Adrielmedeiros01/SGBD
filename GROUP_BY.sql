@@ -16,7 +16,7 @@ select cliente_id, sum(valor) as compras_totais from pagamento
 group by cliente_id
 order by compras_totais desc;
 
--- Expoiler de como utilizar o join e associar os devidos valores das chaves primarias as chaves estrangeiras:
+-- Spoiler de como utilizar o join e associar os devidos valores das chaves primarias as chaves estrangeiras:
 select c.primeiro_nome, c.email, sum(p.valor) as compras_totais from pagamento p
 join cliente c on p.cliente_id = c.cliente_id
 group by p.cliente_id
