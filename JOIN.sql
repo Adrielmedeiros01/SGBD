@@ -1,4 +1,2 @@
 
-
-
-Fazer uma busca extraindo dados de tabelas diferentes
+-- Fazer uma busca extraindo dados de tabelas diferentes;
