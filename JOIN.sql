@@ -63,11 +63,10 @@ join cidade ci on e.cidade_id = ci.cidade_id
 join pais p on ci.pais_id = p.pais_id
 where p.pais = "Brazil";
 
-
-select f.primeiro_nome as nome_funcionario, p.valor as pagamentos_processados
+select f.primeiro_nome as nome_funcionario, sum(p.valor) as valor_vendas
 from funcionario f
-join pagamento p on f.funcionario_id = p.funcionario_id;
-
+join pagamento p on f.funcionario_id = p.funcionario_id
+group by f.funcionario_id;
 
 
 
